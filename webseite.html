@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heidmann Gebäudetechnik GmbH</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="webseite.css">
+    <link rel="stylesheet" href="webseite@media.css">
+    <link rel="stylesheet" href="">
+    <link rel="shortcut icon" href="Logo/Logo 2;1.png" type="image/x-icon">
+    <script src="webseit.js" defer></script>
+</head>
+
+<body class="body">
+    <!-- Global site tag (gtag.js) - Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-309621406"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-309621406');
+    </script>
+    <div id="snap">
+        <header>
+            <div id="hauptnavigation">
+                <div class="navigationsbereich">
+                    <div class="nav-oben">
+                        <a href="info@heidmann24.com" class="nav-link">
+                            <i class="fas fa-envelope nav-icon"></i>
+                        </a>
+                        <a href="Telefon" class="nav-link">
+                            <i class="fas fa-phone nav-icon"></i>
+                        </a>
+                        <a href="https://www.facebook.com/Heidmann.Installateur.Heizungsbaumeister/?notif_id=1634110775006820&notif_t=page_user_activity&ref=notif"
+                            class="nav-link"><i class="fab fa-facebook nav-icon"></i></a>
+                        <a href="https://wa.me/01727662194" target="_blank" class="nav-link"><i
+                                class="fab fa-whatsapp nav-icon"></i></a>
+                    </div>
+                    <div class="logobereich">
+                        <a href="#h1" class="nav-logo"></a>
+                    </div>
+                    <div class="nav-unten">
+                        <div class="navigationspunkte" id="navigationspunkte">
+                            <a href="#h1" class="nav-punkt nav-link home">Home</a>
+                            <a href="#unsereservice" class="nav-punkt nav-link services">Services</a>
+                            <a href="#überuns" class="nav-punkt nav-link über-uns">Über Uns</a>
+                            <a href="#kontakt" class="nav-punkt nav-link kontakt">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="hamburger-icon" onclick="navigationUmschalten()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <a href="#h1" class="pfeile-icon">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        </header>
+        <div class="section">
+            <div class="background">
+                <div id="h1">
+                    <div class="logo"></div>
+                    <h1 class="t-h1">Ihr Installations Team</h1>
+                    <h1 class="t-h1"> </h1>
+                    <h1 class="t-h1"></h1>
+                </div>
+                <div class="slideshow">
+                    <div class="slide">
+                        <img src="gallery/senior-asian-female-homeowner-talking-maintenance-worker-kitchen.jpg"
+                            alt="Service klein Beschreibung" class="slide-bild">
+                        <div class="slide-textbereich slide-textbereich1">
+                            <h3 class="slide-überschrift">Beratung</h3>
+                            <p class="slide-beschreibung">
+                                Beratung steht bei uns an erster Stelle. Egal in welchem
+                                Bereich
+                                wir für Sie tätig sein dürfen, Sie erhalten eine optimale Beratung und einen
+                                zuverlässigen
+                                Service durch unser Team von Fachkräften
+                            </p>
+                            <p>
+                                Lassen Sie sich von uns beraten!
+                            </p>
+                            <a href="#kontakt" class="slide-button">Zum kostenlosen Angebot</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="gallery/service-man-instelling-house-heating-system-under-the-floor.jpg"
+                            alt="Service klein Beschreibung" class="slide-bild">
+                        <div class="slide-textbereich slide-textbereich2">
+                            <h3 class="slide-überschrift">Planung</h3>
+                            <p class="slide-beschreibung">
+                                umfassende Planung Ihrer Sanitär- und Heizungsanlage bis
+                                hin zur maßgeschneiderten Ausführung der Installation Ihres gewünschten Konzeptes.
+                            </p>
+                            <p></p>
+                            <a href="#kontakt" class="slide-button">Zum kostenlosen Angebot</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="gallery/plumber-228010_1920.jpg" alt="Service klein Beschreibung" class="slide-bild">
+                        <div class="slide-textbereich slide-textbereich3">
+                            <h3 class="slide-überschrift">Kundenorientiert</h3>
+                            <p class="slide-beschreibung">
+                                Kundenorientiertes, flexibles und auftragsgemäßes Arbeiten
+                                stehtcbei uns im Vordergrund.
+                            </p>
+                            <p></p>
+                            <a href="#kontakt" class="slide-button">Zum kostenlosen Angebot</a>
+                        </div>
+                    </div>
+                    <div class="slideschatten"></div>
+                    <a class="pfeil pfeil-links" onclick="umschalten(-1)"><span>&#10094</span></a>
+                    <a class="pfeil pfeil-rechts" onclick="umschalten(1)"><span>&#10095</span></a>
+                    <ol class="indikatorenliste">
+                        <li class="indikator" onclick="springeZuEintrag(0)">&#8226</li>
+                        <li class="indikator" onclick="springeZuEintrag(1)">&#8226</li>
+                        <li class="indikator" onclick="springeZuEintrag(2)">&#8226</li>
+                    </ol>
+                    <div class="slide-button-unten">
+                        <a href="#kontakt" class="slide-button2" id="tr1">
+                            <i class="far fa-clock slide-button2-icon"></i>
+                            <div class="slide-button2-text">
+                                <h2>Öffnungszeiten</h2>
+                                <i>Mo-Sa : 08:00 - 17:00</i>
+                            </div>
+                        </a>
+                        <a href="#kontakt" class="slide-button2" id="tr1">
+                            <i class="fas fa-home slide-button2-icon"></i>
+                            <div class="slide-button2-text">
+                                <h2>Unsere Standort</h2>
+                                <i>Schmidenderstr. 50,<br>70372 Stuttgart</i>
+                            </div>
+                        </a>
+                        <a href="#kontakt" class="slide-button2" id="tr1">
+                            <i class="fas fa-calendar-alt slide-button2-icon"></i>
+                            <div class="slide-button2-text">
+                                <h2>Jetzt Buchen!</h2>
+                                <i>+49 711 56 84 56</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <script src="webseit.js" defer></script>
+            </div>
+        </div>
+        <div class="animationnavlogo">
+            <div class="section ">
+                <div id="unsereservice">
+                    <div class="serv-back">
+                        <h3 class="service-head">Unsere Service</h3>
+                        <div class="service-text">
+                            <div class="icon">
+                                <div class="fav1"></div>
+                                <h4 class="serv-kateg-titel">Heizung</h4>
+                                <div class="serviceuntertext">
+                                    <li>Kundendienst</li>
+                                    <li>Wärmepumpen</li>
+                                    <li>Gasbrennwertheizung</li>
+                                    <li>Ölheizung</li>
+                                    <li>Fußbodenheizung</li>
+                                    <li>Wandheizung</li>
+                                    <li>Heizkörper</li>
+                                    <li>Erneuerbaren Energien</li>
+                                    <li>Rohrinstallation</li>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <div class="fav2"></div>
+                                <h4 class="serv-kateg-titel">Sanitär</h4>
+                                <div class="serviceuntertext">
+                                    <li>Kindendienst</li>
+                                    <li>Badsanierung</li>
+                                    <li>Badrenovierung</li>
+                                    <li>Rohrinstallation</li>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <div class="fav3"></div>
+                                <h4 class="serv-kateg-titel">Klima</h4>
+                                <div class="serviceuntertext">
+                                    <li>Kundendienst</li>
+                                    <li>Wohnraumlüftung</li>
+                                    <li>Zentral</li>
+                                    <li>Dezentral</li>
+                                    <li>Abluft</li>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="file:///G:/Meine%20Ablage/Heidmann%20Geb%C3%A4udetechnick%20Kosta/Werbung/Webseit/Heidmann%20Geb%C3%A4udetechnik%20GmbH/unsereservices.html"
+                            class="serv-überuns-bott">Mehr info .....
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section ">
+                <div id="überuns">
+                    <h3 class="überunshead">Über uns</h3>
+                    <div class="überunsbildtext">
+                        <div class="überunsbild"></div>
+                        <p class="überunstext">
+                            Wir sind eine kleines kundeorientirtes Unternehmen mit Leidenschaft an unsere Beruf
+                            Die Firma Heidmann existiert bereits 100 Jahren. Seit den 04.06.2021 würde die Firma von
+                            Konstantinos Fengomytis übernommen. <br> Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Consectetur, debitis error. Sed aliquam nemo odio impedit amet tempora facere modi
+                            alias expedita et eaque pariatur, quidem molestiae totam, soluta quae?Lorem ipsum dolor sit
+                            amet consectetur, adipisicing
+                            elit. Consectetur, debitis error. Sed aliquam nemo odio impedit amet tempora facere modi
+                            alias expedita et eaque pariatur, quidem molestiae totam, soluta quae?Lorem ipsum dolor sit
+                            amet consectetur, adipisicing
+                            elit. Consectetur, debitis error. Sed aliquam nemo odio impedit amet tempora facere modi
+                            alias expedita et eaque pariatur, quidem molestiae totam, soluta quae?
+                        </p>
+                    </div>
+                    <a href="file:///G:/Meine%20Ablage/Heidmann%20Geb%C3%A4udetechnick%20Kosta/Werbung/Webseit/Heidmann%20Geb%C3%A4udetechnik%20GmbH/%C3%BCberuns.html"
+                        class="serv-überuns-bott">Mehr info .....
+                    </a>
+                </div>
+            </div>
+            <div class="section ">
+                <div id="kontakt">
+                    <div class="kont-back">
+                        <h3 class="kont-head">Kontaktieren Sie uns</h3>
+                        <div class="kontaktelementen">
+                            <div class="firdabereich">
+                                <div class="map">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.507216794033!2d9.219882515868084!3d48.8103830120396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799c540bfeaed11%3A0x6bf480782c1ee48!2sHeidmann%20Geb%C3%A4udetechnik%20GmbH%20Sanit%C3%A4r%2C%20Heizung%2C%20Klima!5e0!3m2!1sde!2sde!4v1636323776658!5m2!1sde!2sde"
+                                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                                    </iframe>
+                                </div>
+                                <div Class="firmendaten">
+                                    <div class="logobereich2">
+                                        <a href="webseite.html" class="kontakt-logo"></a>
+                                    </div>
+                                    <div class="kontaktdabereich">
+                                        <div class="kontaktdaten">
+                                            <a href="https://goo.gl/maps/TVhHgpzigbKhcsF99" class="kont-link">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <h4 class="h4">Schmidenerstr. 50,<br>70372 Stuttgart</h4>
+                                            </a>
+                                            <a href="info@heidmann24.com" class="kont-link">
+                                                <i class="fas fa-envelope nav-icon"> </i>
+                                                <h4 class="h4">info@heidmann24.com</h4>
+                                            </a>
+                                            <a href="Telefon" class="kont-link">
+                                                <i class="fas fa-phone nav-icon"> </i>
+                                                <h4 class="h4">+491727662194</h4>
+                                            </a>
+                                            <a href="https://www.facebook.com/Heidmann.Installateur.Heizungsbaumeister/?notif_id=1634110775006820&notif_t=page_user_activity&ref=notif"
+                                                class="kont-link">
+                                                <i class="fab fa-facebook nav-icon"> </i>
+                                                <h4 class="h4"> Facebook</h4>
+                                            </a>
+                                            <a href="https://wa.me/01727662194" target="_blank" class="kont-link">
+                                                <i class="fab fa-whatsapp nav-icon"> </i>
+                                                <h4 class="h4">+491727662194</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kontaktformular">
+                                <form action="https://form.taxi/s/l33b85oj" id="ft-form" method="POST"
+                                    accept-charset="UTF-8">
+                                    <fieldset>
+                                        <legend>Kontaktformular</legend>
+                                        <label>
+                                            Name
+                                            <input type="text" name="Name" required>
+                                        </label>
+                                        <div class="two-cols">
+                                            <label>
+                                                E-Mail-Adresse
+                                                <input type="email" name="E-Mail" required>
+                                            </label>
+                                            <label>
+                                                Telefonnummer
+                                                <input type="tel" name="Telefon">
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Ihr Anliegen</legend>
+                                        <textarea name="Nachricht"></textarea>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Terminwunsch</legend>
+                                        <div class="two-cols">
+                                            <label>
+                                                Datum
+                                                <input type="date" name="Terminwunsch" required>
+                                            </label>
+                                            <div class="inline">
+                                                <label>
+                                                    <input type="hidden" name="Vormittags erwünscht" value="Nein">
+                                                    <input type="checkbox" name="Vormittags erwünscht" value="Ja">
+                                                    Vormittags
+                                                </label>
+                                                <label>
+                                                    <input type="hidden" name="Nachmittags erwünscht" value="Nein">
+                                                    <input type="checkbox" name="Nachmittags erwünscht" value="Ja">
+                                                    Nachmittags
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <p>Bestätigung gewünscht per</p>
+                                        <div class="inline">
+                                            <label>
+                                                <input type="radio" name="Terminbestätigung per" value="E-Mail" checked>
+                                                E-Mail
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="Terminbestätigung per" value="Telefon">
+                                                Telefon
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label>
+                                                <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja"
+                                                    required>
+                                                Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke
+                                                der
+                                                Anfragebearbeitung, einverstanden bin.
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                    <div class="btns">
+                                        <input type="text" name="_gotcha" value="" style="display:none;">
+                                        <input type="submit" value="Anfrage senden">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    window.renderOptIn = function () {
+                        window.gapi.load('surveyoptin', function () {
+                            window.gapi.surveyoptin.render(
+                                {
+                                    // REQUIRED FIELDS
+                                    "merchant_id": 564854424,
+                                    "order_id": "ORDER_ID",
+                                    "email": "CUSTOMER_EMAIL",
+                                    "delivery_country": "COUNTRY_CODE",
+                                    "estimated_delivery_date": "YYYY-MM-DD",
+
+                                    // OPTIONAL FIELDS
+                                    "products": [{ "gtin": "GTIN1" }, { "gtin": "GTIN2" }]
+                                });
+                        });
+                    }
+                </script>
+
+                <div class="footer">
+                    <div class="navfooter">
+                        <a href="#h1" class="nav-punkt-nav-link-footer">Home</a>
+                        <a href="#unsereservice" class="nav-punkt-nav-link-footer">Unsere Services</a>
+                        <a href="#überuns" class="nav-punkt-nav-link-footer">Über Uns</a>
+                        <a href="file:///G:/Meine%20Ablage/Heidmann%20Geb%C3%A4udetechnick%20Kosta/Werbung/Webseit/Heidmann%20Geb%C3%A4udetechnik%20GmbH/Kontakt.html"
+                            class="nav-punkt-nav-link-footer">Kontakt</a>
+                        <a href="file:///G:/Meine%20Ablage/Heidmann%20Geb%C3%A4udetechnick%20Kosta/Werbung/Webseit/Heidmann%20Geb%C3%A4udetechnik%20GmbH/impressum.html"
+                            class="nav-punkt-nav-link-footer">impressum</a>
+                        <a href="file:///G:/Meine%20Ablage/Heidmann%20Geb%C3%A4udetechnick%20Kosta/Werbung/Webseit/Heidmann%20Geb%C3%A4udetechnik%20GmbH/impressum.html"
+                            class="nav-punkt-nav-link-footer">Stellenangebot</a>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <a href="https://icons8.com/icon/q9XfYPLCskZn/kühler">alle icons by Icons8</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+    <!-- Global site tag (gtag.js) - Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-309621406"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-309621406');
+    </script>
+
+
+</body>
+
+</html>
